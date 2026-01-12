@@ -1,4 +1,4 @@
--On the windows machine download wazuh installer
+-On the windows machine download wazuh installer (note: make sure the version of the manager wazuh is the same as in the agent machine)
  https://packages.wazuh.com/4.x/windows/wazuh-agent-4.14.1-1.msi
 -run the interface type the manger ip in the appered dialog box.
 -GO back to the KAlI/UBANTU machine , type command , 
