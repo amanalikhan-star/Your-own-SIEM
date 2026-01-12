@@ -1,0 +1,2 @@
+Sometimes due to version difference between the manager and the agent machine the agent may not show up on the dashboard.
+first we have to check the current version of the wazuh on the agent machine.
