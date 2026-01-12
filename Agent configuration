@@ -1,0 +1,10 @@
+-On the windows machine download wazuh installer
+ https://packages.wazuh.com/4.x/windows/wazuh-agent-4.14.1-1.msi
+-run the interface type the manger ip in the appered dialog box.
+-GO back to the KAlI/UBANTU machine , type command , 
+ sudo /var/ossec/bin/manage_agents
+-Type A for add agent select name e.g windows_agent, also enter the end point's or agents ip.
+-Next Type E to extract the respective key.
+-Place the Key IN the dialog box(that appeared when the wazuh installer was downloaded on the agent machine)
+-Save the key and restart the wizard 
+-Check Agent status on the browser , on which the wazhu dashboard was opened.
