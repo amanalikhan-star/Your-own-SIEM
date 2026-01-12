@@ -1,0 +1,12 @@
+-This is based on using the services of wazuh a SIEM based lab. 
+-Our experimental setup will consist of a wazuh manager(our ubantu or kali machine) and a wazhu agent(the windows machine) or end point.
+-In our VM in the terminal type, ( I used a kali linux machine an ubantu is recommended , the commands are same)
+ curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | sudo gpg --dearmor -o /usr/share/keyrings/wazuh-archive-keyring.gpg
+ This adds the GPG key to verify Wazuh packages.
+-NEXT
+ curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh && sudo bash./wazuh-install.sh -a -i
+● -a: Installs all components (manager, indexer, everything we require for the lab)
+● -i: Runs in interactive mode
+-The download will take about 10-15 mins.
+-After completion you will get an id and password.
+-The wazuh login page can be accessed by putting your machine's ip (in theis case the VM's, use ifconfig).
