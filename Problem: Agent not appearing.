@@ -1,2 +1,3 @@
 Sometimes due to version difference between the manager and the agent machine the agent may not show up on the dashboard.
-first we have to check the current version of the wazuh on the agent machine.
+First we have to check the current version of the wazuh on the agent machine macthes the version on the manager machine.
+So check for the version at the top of the site when downloading the agent configuration for wazuh
