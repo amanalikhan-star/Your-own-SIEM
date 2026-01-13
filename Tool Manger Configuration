@@ -4,7 +4,7 @@
  curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | sudo gpg --dearmor -o /usr/share/keyrings/wazuh-archive-keyring.gpg
  This adds the GPG key to verify Wazuh packages.
 -NEXT
- curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh && sudo bash./wazuh-install.sh -a -i
+ curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh && sudo bash ./wazuh-install.sh -a -i
 ● -a: Installs all components (manager, indexer, everything we require for the lab)
 ● -i: Runs in interactive mode
 -The download will take about 10-15 mins.
